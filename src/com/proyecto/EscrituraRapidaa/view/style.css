@@ -1,0 +1,51 @@
+/* Fondo general */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #4facfe, #00f2fe);
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Etiqueta principal de la palabra */
+.label#lblPalabra {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 6, 0, 2, 2);
+}
+
+/* Nivel y tiempo */
+.label#lblNivel, .label#lblTiempo {
+    -fx-font-size: 16px;
+    -fx-text-fill: #222;
+    -fx-font-weight: bold;
+}
+
+/* Caja de texto */
+.text-field {
+    -fx-font-size: 16px;
+    -fx-padding: 8px;
+    -fx-background-radius: 8;
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 8;
+    -fx-border-color: #00c6ff;
+    -fx-border-width: 2;
+}
+
+/* Botón validar */
+.button {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10px 20px;
+    -fx-background-color: linear-gradient(to right, #4facfe, #00f2fe);
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 4, 0, 2, 2);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to right, #00f2fe, #4facfe);
+}
+
+.button:pressed {
+    -fx-background-color: #0096c7;
+}
